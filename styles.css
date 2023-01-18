@@ -1,0 +1,77 @@
+* {
+    margin: unset;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+li:hover {
+    border-radius: 10px;
+    color: #5034FF;
+    background-color: #F0F3FF;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    grid-gap: 20px;
+}
+
+header {
+    width: 100%;
+}
+
+.appbar__wrapper {
+    width: 80vw;
+    height: 72px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 160px 1fr 1fr 140px;
+    align-items: center;
+}
+
+header picture {
+    width: 160px;
+}
+
+header picture img {
+    width: 100%;
+}
+
+.appbar__button {
+    all: unset;
+    width: 100%;
+    padding: 10px;
+    justify-self: flex-end;
+    color: white;
+    background-color: #6161FF;
+
+    border-radius: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.appbar__button:hover {
+    background-color: #5151d5;
+    cursor: pointer;
+}
+
+.products__wrapper {
+    position: fixed;
+    top: 72px;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
